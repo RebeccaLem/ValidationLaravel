@@ -5,7 +5,7 @@ Dans l'idéal il aurait fallut une page d'accueil (faite), une page où les info
 J'ai commencé à tout faire en même temps sans faire étape par étape, je pense donc j'ai été perdue. 
 Il y a quelques bugs que je n'arrive pas à corriger, quand j'essaie d'atteindre la page Auteurs.
 
-##Pour les seeder et les migrations
+#### Pour les seeder et les migrations
 J'ai créé deux seeder (auteurs et personnages) après les deux migrations (auteurs et personnages).
 Dans les migrations j'ai ajouté les tables : Nom, Année de création, Nom de BD affilié, Dessinateur, pour la migration personnage. Et les tables Nom, Année de naissance, nationalité pour la migration auteur.
 J'ai créé de fausses informations dans les seeder afin de tester ma base de donnée. 
