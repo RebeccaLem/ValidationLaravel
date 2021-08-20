@@ -1,4 +1,4 @@
-##Le projet 
+#### Le projet 
 
 Je crois que, dès le début, j'ai mélangé tout ce qu'on a vu. J'avoue que j'ai manqué de méthode : j'ai commencé par mes trois vues principales sans penser (ou trop tard) qu'il faudrait afficher les auteurs. En réalité je me suis lancée tête baissée dans cette validation et j'ai manqué de temps pour rendre un projet cohérent. 
 Dans l'idéal il aurait fallut une page d'accueil (faite), une page où les informations de la base de donnée seraient affichées et une page CRUD pour supprimer et modifier. 
@@ -13,5 +13,5 @@ Pour les clés étrangères, j'en ai mise une dans la table auteur qui doit se l
 J'ai fais un **php artisan migrate:fresh**
 Enfin j'ai ajouté les éléments liés entre eux dans la vue auteurs. 
 
-##Conclusion
+#### Conclusion
 Au début j'étais pas perdue mais quand on a commencé à voir les foreign key je crois que je n'ai pas tout compris. 
