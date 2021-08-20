@@ -13,11 +13,11 @@ class ActionController extends Controller
     }
 
     public function updateAuthor() {
-        $authors = Author::findOrFail($request->id);
+        $authors = Author::findOrFail($request->author_id);
         $authors = Author::all()->sortBy('name');
         $Characters = Character::all()->sortBy('name');
         return view('updateBook', ['author' => $authors, 'Character' => $Characters]);
     }
 
-    
+
 }

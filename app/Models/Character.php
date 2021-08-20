@@ -6,11 +6,10 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 
-class Characters extends Model
+class Character extends Model
 {
     public function Characters()
 {
-    $Characters = App\Models\Character::find(1)->Characters;
     return $this->belongsTo(Authors::class);
 }
 }

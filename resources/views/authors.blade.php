@@ -2,6 +2,7 @@
 
 @section('title', 'Accueil')
 @section('css', 'home')
+@section('css', 'authors')
 
 @section('content')
 <div class="card">
@@ -9,8 +10,8 @@
         <td><a href="authorUpdate/{{ $author->author_id }}">{{ $author->name }}</a></td>
         <td>{{ $character->author->name }}</td>
         <td>
-            @foreach ($book->genres as $genre)
-                <p>{{ $genre->name }}</p>
+            @foreach ($authors->characters as $character)
+                <p>{{ $author->name }}</p>
             @endforeach
         </td>
         <td>{{ $character->publication_year }}</td>

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Book;
+use App\Models\Character;
 
 class NavController extends Controller
 {
@@ -14,7 +14,7 @@ class NavController extends Controller
 
     public function characters()
     {
-        $characters = characters::all();
+        $characters = Character::all();
         return view('characters',['characters' => $characters]);
     }
 

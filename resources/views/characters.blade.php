@@ -6,22 +6,29 @@
 @section('content')
 <section class="talkAboutCharacter">
     <p class="title">Liste des personnages</p>
-<form action="updateAuthor" method="POST">
+    <form action="updateAuthor" method="POST">
     @csrf
-    <div class="form-group">
-        <input type="email" class="form-control  @error('email') is-invalid @enderror" name="email" id="email" placeholder="Votre email" value="{{ old('email') }}">
-        @error('email')
-            <div class="invalid-feedback">{{ $message }}</div>
-        @enderror
-    </div>
-    <div class="form-group">
-        <textarea class="form-control  @error('message') is-invalid @enderror" name="message" id="message" placeholder="Votre message">{{ old('message') }}</textarea>
-        @error('message')
-            <div class="invalid-feedback">{{ $message }}</div>
-        @enderror
-    </div>
+        <div class="form_character">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div class="form_character">
+            <label for="name">Année de création :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div class="form_character">
+            <label for="name">Appartient à la BD :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div class="form_character">
+            <label for="name">Dessiné par :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+    <div class="form_character">
     <button type="submit" class="btn btn-secondary">Envoyer !</button>
-</form>
-</div>
+    </div>
+    </form>
+    </div>
+    <img src="https://medias.comixtrip.fr/wp-content/uploads/2019/04/fertPeaudemillebetes-13-1200x675.jpg" />
 @endsection
 
