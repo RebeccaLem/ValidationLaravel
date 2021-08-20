@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height:8%;
+    background-color: #BF5050;
+}
+
+nav {
+    padding-top:25px;
+}
+
+li {
+    display:inline;
+    padding: 15px;
+    position: relative;
+    left:220px;
+}
+
+a {
+    text-transform: uppercase;
+    color:#F2D7B6;
+    font-weight: 700;
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    Font-Size: 20px;
+}
+
+a:visited {
+    color: #F2F2F2;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: #F2EEAC;
+}
+
+img {
+    width:100%;
+}
+
+.talkabout {
+    position: absolute;
+    bottom: 12em;
+}
+
+.title {
+    text-transform: uppercase;
+    color:#F2F2F2;
+    font-weight: 700;
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    Font-Size: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.speech {
+    width:45%;
+    margin-left:25em;
+    text-align: justify;
+    Font-Family: 'Cabin', Sans-Serif;
+    Font-Size: 17px;
+    line-height: 20px;
+    color:#F2F2F2;
+}
+
+.talkAboutCharacter {
+    background-color: #F2D4C2;
+    width:100%;
+    height:100%;
+}
